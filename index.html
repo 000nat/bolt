@@ -14,60 +14,97 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!--上部固定のheader-->
     <header class="header">
       <div class="inner header-inner">
-        <i class="fas fa-bolt"></i> <!--⚡型のアイコン-->
-        <div class="header_contents">Contact</div> <!--右上コンテンツ-->
+        <i class="fas fa-bolt"></i> 
+        <a href="#" class="header_contents">Contact</a>
       </div>
     </header>
     <main class="main_wrapper">
         <div class="inner title-inner">
-          <h1>Bolt Theme</h1>
+          <h1 class="h">Bolt Theme</h1>
           <p>FREE BOOTSTRAP THEMES</p>
         </div>
         <section class="section">
           <div class="inner section_inner">
-            <div class="section_img">
-              <img src="img/iphone.png"> <!--iphone写真-->
+            <div class="section_inner_img">
+              <img src="img/iphone.png">
             </div>
             <div class="section_textcontents_what">
-              <h2>WHAT WE CAN DO?</h2>
+              <h2 class="h">WHAT WE CAN DO?</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
         </section>
-        <article class="inner article_contents">
-          <h3>OUR LATEST WORK</h3>
-          <ul>
-            <li><img src="img/01.jpg"></li> <!--上３下３写真配置-->
-            <li><img src="img/02.jpg"></li>
-            <li><img src="img/03.jpg"></li>
-            <li><img src="img/04.jpg"></li>
-            <li><img src="img/05.jpg"></li>
-            <li><img src="img/06.jpg"></li> 
-          </ul>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-          <div class="article_mailbox">Email Me!</div> <!--メールボックス-->
+        <article class="article_contents">
+          <div class="inner article_contents_inner">
+            <h3 class="h">OUR LATEST WORK</h3>
+          </div>
+          <div class="inner article_contents_imgwrap">
+            <div class="article_contents_img_item">
+              <a href="#"><img src="img/01.jpg"></a>
+            </div>
+            <div class="article_contents_img_item">
+              <a href="#"><img src="img/02.jpg"></a>
+            </div>
+            <div class="article_contents_img_item">
+              <a href="#"><img src="img/03.jpg"></a>
+            </div>
+            <div class="article_contents_img_item">
+              <a href="#"><img src="img/04.jpg"></a>
+            </div>
+            <div class="article_contents_img_item">
+              <a href="#"><img src="img/05.jpg"></a> 
+            </div>
+            <div class="article_contents_img_item">
+              <a href="#"><img src="img/06.jpg"></a> 
+            </div>
+            <div class="article_contents_text">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+              <a href="#" class="article_mailbox">Email Me!</a>
+            </div>
+          </div>
         </article>
-        <section class="section_textcontents_our">
-          <h4>OUR SKILLS</h4>
-          <img src="img/circle_01.png" alt="JavaScript"> <!--４つ横並び-->
-          <img src="img/circle_02.png" alt="Bootstrap">
-          <img src="img/circle_03.png" alt="WordPress">
-          <img src="img/circle_04.png" alt="Photoshop">
+        <section class="innner section_textcontents_our">
+          <h4 class="h">OUR SKILLS</h4>
+          <div class="section_textcontents_our_imgwrap">
+            <div class="section_textcontents_our_img">
+              <img src="img/circle_01.png">
+              <p>JavaScript</p> 
+            </div>
+            <div class="section_textcontents_our_img">
+              <img src="img/circle_02.png">
+              <p>Bootstrap</p>
+            </div>
+            <div class="section_textcontents_our_img">
+              <img src="img/circle_03.png">
+              <p>WordPress</p>
+            </div>
+            <div class="section_textcontents_our_img">
+              <img src="img/circle_04.png">
+              <p>Photoshop</p>
+            </div>
+          </div>
         </section>
-        <nav class="nav_icon">
-          <div class="nav_icon_contents">
-            <i class="fab fa-facebook-f"></i>　<!--４つ横並び-->
-            <i class="fab fa-dribbble"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fas fa-envelope"></i>
+        <nav class="inner nav_icon">
+          <div class="nav_icon_wrap">
+            <div class="nav_icon_contents">
+              <a href="#" class="fab fa-facebook-f"></a>
+            </div>
+            <div class="nav_icon_contents">
+              <a href="#" class="fab fa-dribbble"></a>
+            </div>
+            <div class="nav_icon_contents">
+              <a href="#" class="fab fa-twitter"></a>
+            </div>
+            <div class="nav_icon_contents">
+              <a href="#" class="fas fa-envelope"></a>
+            </div>
           </div>
         </nav>    
     </main>
     <footer class="footer">
-      <div class="inner">Crafted with ♥ by BlackTie.co.</div>
+      <div class="inner footer_inner">Crafted with ♥ by BlackTie.co.</div>
     </footer>
   </body>
 </html>
