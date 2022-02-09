@@ -19,6 +19,7 @@
   .header {
     background-color: #fff;
     height: 40px;
+    overflow: hidden;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -114,6 +115,7 @@
   
   .article_contents_imgwrap {
     flex-wrap: wrap;
+    margin-top: 40px;
   }
   
   .article_contents_img_item {
@@ -127,10 +129,6 @@
   
   .article_contents_img_item:hover {
     opacity: 1;
-  }
-
-  .article_contents_img_item:nth-child(-n+3) {
-    margin-top: 40px;
   }
   
   .article_contents_img_item:nth-child(3n+1) {
@@ -260,6 +258,7 @@
   .header {
     background-color: #fff;
     height: 40px;
+    overflow: hidden;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -488,6 +487,7 @@
   .header {
     background-color: #fff;
     height: 40px;
+    overflow: hidden;
     padding: 15px 0;
     position: fixed;
     width: 100%;
