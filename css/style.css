@@ -69,9 +69,8 @@
 @media screen and (min-width: 1200px) {
 
   .inner {
-    height: auto;
     margin: 0 auto;
-    max-width: 1100px;
+    width: 1100px;
   }
   
   .flex {
@@ -139,7 +138,6 @@
     font-size: 24px;
     text-align: center;
     margin: 0 auto;
-    width: 1100px;
   }
   
   .article_contents_imgwrap {
@@ -152,6 +150,10 @@
     margin-top: 80px;
     margin-left: 100px;
     width: calc(100% -200px / 3);
+  }
+
+  .article_contents_img_item a {
+    display: block;
   }
   
   .article_contents_img_item img {
@@ -226,10 +228,15 @@
   .nav_icon {
     box-sizing: border-box;
     font-size: 50px;
-    padding: 40px 0;
     text-align: center;
     transition: 0.3s;
+    height: 110px;
     width: 185px;
+  }
+
+  .nav_icon a {
+    display: block;
+    line-height: 110px;
   }
   
   .nav_icon_contents {
@@ -257,9 +264,8 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   
   .inner {
-    height: auto;
     margin: 0 auto;
-    max-width: 97%;
+    width: 97%;
   }
 
   .flex {
@@ -324,6 +330,10 @@
   
   .article_contents_imgwrap {
     flex-wrap: wrap;
+  }
+
+  .article_contents_img_item a {
+    display: block;
   }
 
   .article_contents_img_item:first-child img {
@@ -398,12 +408,17 @@
   .nav_icon {
     box-sizing: border-box;
     font-size: 50px;
-    padding: 40px 0;
     text-align: center;
     transition: 0.3s;
+    height: 110px;
     width: 185px;
   }
-  
+
+  .nav_icon a {
+    display: block;
+    line-height: 110px;
+  }
+
   .nav_icon_contents {
     color: #74cfae;
     text-decoration: none;
@@ -429,9 +444,8 @@
 @media screen and (max-width: 767px) {
 
   .inner {
-    height: auto;
     margin: 0 auto;
-    max-width: 97%;
+    width: 97%;
   }
 
   .flex {
@@ -544,6 +558,10 @@
   .article_contents_imgwrap {
     flex-wrap: wrap;
   }
+
+  .article_contents_img_item a {
+    display: block;
+  }
   
   .article_contents_img_item img {
     opacity: 0.7;
@@ -614,9 +632,13 @@
     box-sizing: border-box;
     font-size: 50px;
     margin: 0 auto;
-    padding: 40px 0;
     transition: 0.3s;
-    width: 185px;
+    height: 110px;
+  }
+
+  .nav_icon a {
+    display: block;
+    line-height: 110px;
   }
   
   .nav_icon_contents {
