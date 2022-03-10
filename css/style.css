@@ -133,7 +133,6 @@ input[type="checkbox"] {
 .article_contents_inner {
   font-size: 24px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .article_contents_imgwrap {
@@ -296,10 +295,6 @@ input[type="checkbox"] {
     margin-left: 0px;
   }
 
-  .article_contents_img_item:first-child img {
-    margin-top: 40px;
-  }
-  
   .article_contents_img_item:nth-child(3n + 1) {
     margin-top: 80px;
   }
